@@ -133,3 +133,66 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* HEADER */
+
+#header_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  height: 50px;
+  background-color: #f72210;
+}
+
+img[alt="Newsweek_Logo"] {
+  width: 132px;
+  height: 20px;
+}
+
+button[id*="button"] {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 13.7px;
+  padding: 2px 3px;
+  border: 0;
+  font-weight: 900;
+}
+
+#sign_in_button {
+  color: #fff;
+  background-color: #f72210;
+}
+
+#subscribe_button {
+  color: #f72210;
+  background-color: #fff;
+}
+
+#menu_header {
+  width: 50px;
+  height: 50px;
+  padding: 13px;
+}
+
+.lines_menu_header {
+  display: block;
+  width: 24px;
+  height: 4px;
+  margin-bottom: 4px;
+  background-color: #fa9a9a;
+}
+
+#nav_right_side_items {
+  display: inherit;
+  align-items: inherit;
+}
