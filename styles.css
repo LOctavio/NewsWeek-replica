@@ -293,4 +293,36 @@ img[alt^="opinion_img"] {
 
 /* OPINION SECTION END */
 
+/* THE DEBATE SECTION START */
+
+.debate_article {
+  border-top: 4px solid;
+}
+
+.debate_article_img {
+  height: 95px;
+  width: 95px;
+}
+
+#debate1 {
+  border-color: #f92859;
+}
+
+#debate2 {
+  border-color: #1c87fb;
+}
+
+#vs {
+  margin: 14px auto 18px;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: black;
+  text-align: center;
+  line-height: 43px;
+  color: #d6d6d6;
+}
+
+/* THE DEBATE SECTION END */
+
 /* MAIN CONTENT END */
