@@ -240,7 +240,7 @@ button[id*="button"] {
   margin: 8px 0;
 }
 
-.top_and_featured_stories_descrition {
+.top_and_featured_stories_description {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   color: #333;
@@ -252,10 +252,45 @@ img { /* temporal */
 
 /* TOP STORY SECTION START */
 
-#top_story_article {
-  padding-bottom: 20px;
+/* TOP STORY SECTION END */
+
+/* OPINION SECTION START */
+
+#opinion_section {
+  margin-bottom: 30px;
 }
 
-/* TOP STORY SECTION END */
+.opinions_content {
+  position: relative;
+  padding: 10px 0;
+  min-height: 83px;
+}
+
+img[alt^="opinion_img"] {
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  left: 0;
+  top: 10;
+}
+
+.opinion_text {
+  margin-left: 80px;
+  font-weight: 900;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.personal_opinion {
+  font-size: 17px;
+  color: black;
+  margin-bottom: 2px;
+}
+
+.opinion_author {
+  color: #555;
+  margin-bottom: 0;
+}
+
+/* OPINION SECTION END */
 
 /* MAIN CONTENT END */
