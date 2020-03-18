@@ -303,8 +303,6 @@ div[class^="debate_container"] {
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-weight: 900;
-  font-family: "Roboto Condensed", sans-serif;
 }
 
 .debate_container2 {
@@ -314,6 +312,9 @@ div[class^="debate_container"] {
 
 .debate_article_text {
   color: black;
+  font-weight: 900;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 17px;
 }
 
 .debate_author {
@@ -369,6 +370,7 @@ img[alt^="more_stories_img"] {
   font-weight: 900;
   font-family: "Roboto Condensed", sans-serif;
   color: black;
+  font-size: 16px;
 }
 
 .more_stories_article_text {
@@ -377,5 +379,42 @@ img[alt^="more_stories_img"] {
 }
 
 /* MORE STORIES SECTION END */
+
+/* CULTURE & TRAVEL SECTION START */
+
+.culture_and_travel_article .category_container {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #c2d4d7;
+  padding: 0 6px;
+}
+
+.culture_and_travel_article .category {
+  color: #272727;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.culture_and_travel_article .info {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.culture_and_travel_article .tittle {
+  font-family: serif;
+  font-size: 20px;
+  color: #272727;
+  font-weight: 200;
+}
+
+.culture_and_travel_article .text {
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgba(39, 39, 39, 0.5);
+}
+
+/* CULTURE & TRAVEL SECTION END */
 
 /* MAIN CONTENT END */
