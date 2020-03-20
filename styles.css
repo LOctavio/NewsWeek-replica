@@ -250,9 +250,37 @@ img { /* temporal */
   width: 100%;
 }
 
+@media only screen and (min-width: 992px) {
+  #main_section_container {
+    width: 33.33%;
+    height: 4000px;
+    flex-wrap: wrap;
+  }
+
+  #main_section_container section {
+    padding: 0 10px;
+  }
+}
+
 /* TOP STORY SECTION START */
 
 /* TOP STORY SECTION END */
+
+/* FEATURED STORIES SECTION START */
+
+@media only screen and (min-width: 992px) {
+  #featured_stories_section {
+    position: sticky;
+    top: 0;
+  }
+
+  #space_after_featured_stories {
+    height: 2200px;
+    min-height: 0;
+  }
+}
+
+/* FEATURED STORIES SECTION END */
 
 /* OPINION SECTION START */
 
