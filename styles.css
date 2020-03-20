@@ -252,7 +252,6 @@ img { /* temporal */
 
 @media only screen and (min-width: 992px) {
   #main_section_container {
-    width: 33.33%;
     height: 4000px;
     flex-wrap: wrap;
   }
@@ -264,6 +263,12 @@ img { /* temporal */
 
 /* TOP STORY SECTION START */
 
+@media only screen and (min-width: 992px) {
+  #top_story_section {
+    width: 40%;
+  }
+}
+
 /* TOP STORY SECTION END */
 
 /* FEATURED STORIES SECTION START */
@@ -272,6 +277,7 @@ img { /* temporal */
   #featured_stories_section {
     position: sticky;
     top: 0;
+    width: 30%;
   }
 
   #space_after_featured_stories {
@@ -283,6 +289,12 @@ img { /* temporal */
 /* FEATURED STORIES SECTION END */
 
 /* OPINION SECTION START */
+
+@media only screen and (min-width: 992px) {
+  #opinion_section {
+    width: 30%;
+  }
+}
 
 #opinion_section {
   margin-bottom: 30px;
@@ -322,6 +334,12 @@ img[alt^="opinion_img"] {
 /* OPINION SECTION END */
 
 /* THE DEBATE SECTION START */
+
+@media only screen and (min-width: 992px) {
+  #the_debate_section {
+    width: 30%;
+  }
+}
 
 .debate_article {
   border-top: 4px solid;
@@ -383,6 +401,12 @@ img[alt^="author_debate"] {
 
 /* MORE STORIES SECTION START */
 
+@media only screen and (min-width: 992px) {
+  #more_stories_section {
+    width: 40%;
+  }
+}
+
 .more_stories_article {
   padding: 14px 0;
 }
@@ -409,6 +433,12 @@ img[alt^="more_stories_img"] {
 /* MORE STORIES SECTION END */
 
 /* CULTURE & TRAVEL SECTION START */
+
+@media only screen and (min-width: 992px) {
+  #culture_and_travel_section {
+    width: 40%;
+  }
+}
 
 .culture_and_travel_article .category_container {
   position: absolute;
@@ -447,6 +477,12 @@ img[alt^="more_stories_img"] {
 
 /* LATEST NEWS START */
 
+@media only screen and (min-width: 992px) {
+  #latest_news_section {
+    width: 30%;
+  }
+}
+
 .latest_news_article {
   position: relative;
   min-height: 105px;
@@ -478,6 +514,12 @@ img[alt^="latest_news_img"] {
 /* LATEST NEWS END */
 
 /* FIRST SIGN UP BLOCK START */
+
+@media only screen and (min-width: 992px) {
+  #first_sign_up_block {
+    width: 30%;
+  }
+}
 
 #first_sign_up_block {
   padding: 20px;
