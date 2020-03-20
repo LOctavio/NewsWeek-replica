@@ -646,7 +646,7 @@ img[alt^="in_the_magazine_img"] {
   font-weight: 900;
 }
 
-.featured_slideshows_article_tittle {
+.featured_slideshows_article_title {
   color: black;
   font-weight: 900;
   font-family: "Roboto Condensed", sans-serif;
@@ -654,5 +654,48 @@ img[alt^="in_the_magazine_img"] {
 }
 
 /* FEATURED SLIDESHOWS SECTION END */
+
+/* CATEGORIES SECTION START */
+
+.categories_section_title {
+  color: #f72210;
+  font-weight: 900;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 22px;
+}
+
+.categories_article_title {
+  color: black;
+  font-weight: 900;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+}
+
+.small_articles > :first-child {
+  padding-top: 0;
+  min-height: 105px;
+}
+
+img[alt*="small_articles"] {
+  width: 95px;
+  position: absolute;
+  left: 0;
+}
+
+.categories_small_article {
+  position: relative;
+  padding: 10px 0;
+  min-height: 115px;
+}
+
+.categories_small_article_title {
+  color: black;
+  font-weight: 900;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 17px;
+  margin-left: 110px;
+}
+
+/* CATEGORIES SECTION END */
 
 /* MAIN CONTENT END */
