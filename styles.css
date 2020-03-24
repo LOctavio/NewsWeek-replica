@@ -109,7 +109,7 @@ section {
 
 body {
   line-height: 1;
-  padding-top: 50px;
+  padding: 70px 15px 0 15px;
 }
 
 ol,
@@ -145,8 +145,11 @@ html {
   box-sizing: inherit;
 }
 
-main {
-  padding: 20px 15px 0 15px;
+@media only screen and (min-width: 992px) {
+  body {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 /* HEADER START */
@@ -252,7 +255,7 @@ img { /* temporal */
 
 @media only screen and (min-width: 992px) {
   #main_section_container {
-    height: 3930px;
+    height: 4000px;
     flex-wrap: wrap;
   }
 
@@ -403,6 +406,11 @@ img[alt^="author_debate"] {
   #more_stories_section {
     width: 40%;
   }
+}
+
+#more_stories_section article {
+  min-height: 123px;
+  border-top: 1px solid #ddd;
 }
 
 .more_stories_article {
@@ -863,3 +871,81 @@ img[alt="subscribe_img2"] {
 /* NEWLETTER SECTION END */
 
 /* MAIN CONTENT END */
+
+/* FOOTER START */
+
+footer {
+  padding: 30px 0;
+}
+
+#logo_and_social_media p {
+  margin-bottom: 8px;
+  height: fit-content;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #666;
+}
+
+#logo_and_social_media ul {
+  margin-bottom: 8px;
+  height: fit-content;
+}
+
+img[alt="Newsweek_Footer_Logo"] {
+  width: 236px;
+  height: 35px;
+  margin-bottom: 12px;
+}
+
+i {
+  padding: 0 5px;
+  color: #666;
+}
+
+i:hover {
+  color: #1f73b6;
+}
+
+i[class*="facebook"] {
+  font-size: 26px;
+}
+
+i[class*="twitter"] {
+  font-size: 25px;
+}
+
+i[class*="instagram"] {
+  font-size: 25px;
+}
+
+i[class*="tumblr"] {
+  font-size: 22px;
+}
+
+i[class*="linkedin"] {
+  font-size: 24px;
+}
+
+#editions span {
+  margin-right: 15px;
+  color: #666;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#editions ul {
+  margin-bottom: 0;
+}
+
+#links_footer li {
+  padding-right: 20px;
+}
+
+#links_footer li a {
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/* FOOTER END */
