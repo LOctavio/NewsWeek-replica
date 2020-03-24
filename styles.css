@@ -275,8 +275,6 @@ img { /* temporal */
 
 @media only screen and (min-width: 992px) {
   #featured_stories_section {
-    position: sticky;
-    top: 0;
     width: 30%;
   }
 
@@ -767,5 +765,101 @@ img[alt*="small_articles"] {
 }
 
 /* CATEGORIES SECTION END */
+
+#subscribe_and_newsletter_section h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+#subscribe_and_newsletter_section p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #333;
+  padding: 0;
+}
+
+#subscribe_and_newsletter_section button {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f72210;
+  color: #fff;
+  border: 0;
+  font-weight: 900;
+  padding: 10px;
+}
+
+#subscribe_and_newsletter_section h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #f72210;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+/* SUBSCRIBE SECTION START */
+
+#subscribe_section {
+  align-items: center;
+  text-align: center;
+  padding: 39px;
+}
+
+#subscribe_section_images {
+  min-width: 255px;
+  height: 245px;
+  position: relative;
+}
+
+img[alt^="subscribe_img"] {
+  position: absolute;
+  width: 170px;
+}
+
+img[alt="subscribe_img1"] {
+  top: 0;
+  left: 0;
+}
+
+img[alt="subscribe_img2"] {
+  top: 15px;
+  left: 85px;
+}
+
+#subscribe_info {
+  padding-left: 30px;
+}
+
+/* SUBSCRIBE SECTION END */
+
+/* NEWLETTER SECTION START */
+#newsletter_section {
+  align-items: center;
+  text-align: center;
+}
+
+#newsletter_img {
+  height: 160px;
+  width: 100%;
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
+}
+
+@media only screen and (min-width: 768px) {
+  #newsletter_img {
+    height: 210px;
+    width: 191px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  #newsletter_img {
+    height: 300px;
+    min-width: 190px;
+  }
+}
+
+#newsletter_info {
+  padding: 30px;
+}
+
+/* NEWLETTER SECTION END */
 
 /* MAIN CONTENT END */
