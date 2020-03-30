@@ -18,8 +18,9 @@
 
 👤 **Luis Octavio Ramirez Cruz**
 
+* email: [email](luis_ram1997@hotmail.com)
 * Github: [@LOctavio](https://github.com/LOctavio)
-* Twitter: [@Luis Octavio Ram_ram431](https://twitter.com/Octavio_ram431)
+* Twitter: [@Octavio_ram431](https://twitter.com/Octavio_ram431)
 * Linkedin: [linkedin](https://www.linkedin.com/in/luis-octavio-ramirez-cruz-714521178/)
 
 ## 🤝 Contributing
