@@ -186,6 +186,14 @@ button[id*="button"] {
   background-color: #fff;
 }
 
+#subscribe_button span {
+  display: none;
+}
+
+#subscribe_button span i[class$="fa-chevron-right"] {
+  color: inherit;
+}
+
 #menu_header {
   width: 50px;
   height: 50px;
@@ -732,6 +740,10 @@ img[alt^="latest_news_img"] {
   margin-bottom: 10px;
 }
 
+#first_sign_up_block .sign_up_button i[class$="fa-chevron-right"] {
+  color: inherit;
+}
+
 #first_sign_up_block .sign_up_button:hover {
   background-color: #999;
 }
@@ -742,6 +754,11 @@ img[alt^="latest_news_img"] {
   color: #333;
   font-size: 15px;
   font-weight: 900;
+}
+
+#first_sign_up_block .update_text i[class$="fa-angle-double-right"] {
+  color: inherit;
+  font-size: 10px;
 }
 
 #first_sign_up_block .update_text:hover {
@@ -1028,6 +1045,10 @@ img[alt*="small_articles"] {
   border: 0;
   font-weight: 900;
   padding: 10px;
+}
+
+#subscribe_and_newsletter_section button i[class="fas fa-chevron-right"] {
+  color: inherit;
 }
 
 #subscribe_and_newsletter_section h2 {
