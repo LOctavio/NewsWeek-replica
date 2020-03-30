@@ -109,7 +109,6 @@ section {
 
 body {
   line-height: 1;
-  padding: 70px 15px 0 15px;
 }
 
 ol,
@@ -145,27 +144,60 @@ html {
   box-sizing: inherit;
 }
 
-@media only screen and (min-width: 992px) {
-  body {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
-
 /* HEADER START */
 
 #header_top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 15px;
+  padding: 15px;
   height: 50px;
   background-color: #f72210;
+  min-width: 335px;
+}
+
+@media only screen and (min-width: 992px) {
+  #header_top {
+    height: 95px;
+  }
+}
+
+#date_and_weather {
+  color: #fff;
+  line-height: 32px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#date_and_weather i[class^="fas"] {
+  color: inherit;
+}
+
+#weather_header {
+  margin-left: 140px;
+  color: #fff;
+  font-weight: 900;
+  text-decoration: none;
+  display: none;
+}
+
+@media only screen and (min-width: 410px) {
+  #weather_header {
+    display: inline;
+  }
 }
 
 img[alt="Newsweek_Logo"] {
   width: 132px;
   height: 20px;
+  position: absolute;
+}
+
+@media only screen and (min-width: 992px) {
+  img[alt="Newsweek_Logo"] {
+    width: 395px;
+    height: 60px;
+    position: relative;
+  }
 }
 
 button[id*="button"] {
@@ -174,6 +206,12 @@ button[id*="button"] {
   padding: 2px 3px;
   border: 0;
   font-weight: 900;
+}
+
+@media only screen and (min-width: 480px) {
+  #nav_right_side_items button {
+    font-size: 18px;
+  }
 }
 
 #sign_in_button {
@@ -217,8 +255,16 @@ button[id*="button"] {
 
 /* MAIN CONTENT START */
 
-main {
+#container {
   min-width: 335px;
+  padding: 30px 15px 0 15px;
+}
+
+@media only screen and (min-width: 992px) {
+  #container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 @media only screen and (min-width: 720px) {
