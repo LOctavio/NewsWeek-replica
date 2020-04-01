@@ -1,63 +1,33 @@
-# Project Name
+# Newsweek clone page
 
-> One paragraph statement about the project.
+> This is a page which is a clone of the page [www.newsweek.com](https://www.newsweek.com/).
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
-
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML,
+- CSS,
+- Bootstrap
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+[Live Demo Link](https://raw.githack.com/LOctavio/NewsWeek-replica/development/index.html)
 
 ## Authors
 
-👤 **Author1**
+👤 **Luis Octavio Ramirez Cruz**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+* email: [email](luis_ram1997@hotmail.com)
+* Github: [@LOctavio](https://github.com/LOctavio)
+* Twitter: [@Octavio_ram431](https://twitter.com/Octavio_ram431)
+* Linkedin: [linkedin](https://www.linkedin.com/in/luis-octavio-ramirez-cruz-714521178/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/LOctavio/NewsWeek-replica/issues).
 
 ## Show your support
 
